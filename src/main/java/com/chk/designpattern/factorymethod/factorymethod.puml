@@ -1,0 +1,12 @@
+@startuml
+
+AppleCan --|>FruitCan
+OrangeCan --|>FruitCan
+
+OrangeCanFactory --|>CanFactory
+AppleCanFactory --|>CanFactory
+
+AppleCanFactory..>AppleCan
+OrangeCanFactory..>OrangeCan
+
+@enduml
