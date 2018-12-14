@@ -1,10 +1,10 @@
-package com.chk.designpattern.factorymethod;
+package com.chk.designpattern.factoryMethod;
 
 /**
  * @author changhongkai
  * @date 2018/12/14 上午11:04
  */
-public class AppleCan extends FruitCan {
+public class AppleCan extends FruitCanAbstract {
     @Override
     public String name() {
         return "我是水果罐头";

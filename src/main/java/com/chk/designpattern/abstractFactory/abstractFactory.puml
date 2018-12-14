@@ -1,0 +1,32 @@
+@startuml
+
+abstract CarFactoryAbstract {
+     abstract public void decideCarColor();
+
+     abstract public void decideCarType();
+
+     abstract  public void build();
+}
+abstract class CarColorAbstract {
+    abstract public String getColor();
+}
+abstract class CarTypeAbstract {
+    abstract public String getType();
+}
+
+RedColor--|>CarColorAbstract
+YellowColor--|>CarColorAbstract
+SUVCar--|>CarTypeAbstract
+SedanCar--|>CarTypeAbstract
+BMWCarFactory--|>CarFactoryAbstract
+
+
+BMWCarFactory..>SUVCar
+BMWCarFactory..>SedanCar
+BMWCarFactory..>RedColor
+BMWCarFactory..>YellowColor
+
+Client-->BMWCarFactory
+
+
+@enduml
