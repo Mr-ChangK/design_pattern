@@ -6,12 +6,13 @@ package com.chk.designpattern.createPattern.singleton;
  * 饿汉式，天生线程安全
  */
 public class HungerSingleton {
-    private static HungerSingleton hungerSingleton=new HungerSingleton();
-    private HungerSingleton(){
+    private static HungerSingleton hungerSingleton = new HungerSingleton();
+
+    private HungerSingleton() {
 
     }
 
-    public static HungerSingleton getSynInstance(){
+    public static HungerSingleton getSynInstance() {
         return hungerSingleton;
     }
 }
