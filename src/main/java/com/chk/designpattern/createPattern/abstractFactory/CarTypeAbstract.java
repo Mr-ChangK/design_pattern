@@ -1,4 +1,4 @@
-package com.chk.designpattern.abstractFactory;
+package com.chk.designpattern.createPattern.abstractFactory;
 
 /**
  * @author changhongkai

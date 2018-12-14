@@ -8,4 +8,4 @@
  * 确定：横向扩展比较容易，纵向扩展比较难
  * eg:如果对车的选择再加上一个条件，所有的子类必须实现。但是如果奔驰再搞一个工厂比较容易
  */
-package com.chk.designpattern.abstractFactory;
+package com.chk.designpattern.createPattern.abstractFactory;

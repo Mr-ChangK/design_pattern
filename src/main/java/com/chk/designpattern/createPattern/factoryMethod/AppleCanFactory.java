@@ -1,4 +1,4 @@
-package com.chk.designpattern.factoryMethod;
+package com.chk.designpattern.createPattern.factoryMethod;
 
 /**
  * @author changhongkai

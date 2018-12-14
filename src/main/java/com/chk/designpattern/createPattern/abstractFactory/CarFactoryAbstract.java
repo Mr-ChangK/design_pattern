@@ -1,4 +1,4 @@
-package com.chk.designpattern.abstractFactory;
+package com.chk.designpattern.createPattern.abstractFactory;
 
 /**
  * @author changhongkai
@@ -9,5 +9,5 @@ public abstract class CarFactoryAbstract {
 
     abstract protected void decideCarType();
 
-    abstract  public void build();
+    abstract public void build();
 }
