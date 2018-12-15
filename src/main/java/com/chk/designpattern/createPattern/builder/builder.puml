@@ -1,0 +1,16 @@
+@startuml
+abstract class Builder {
+    abstract protected void bulidPartA(String var);
+    abstract protected void buildPartB(String var);
+    abstract public Product buildProduct();
+}
+
+class Director
+
+class ObjectABuilder
+
+ObjectABuilder..|>Builder
+
+Director o-- Builder
+
+@enduml
