@@ -1,0 +1,14 @@
+@startuml
+class Adaptee {
+    public void needAdapterMethod();
+}
+interface Target {
+    void request();
+}
+class Adapter
+
+Adapter..|>Target
+Adaptee..>Adapter
+Client..>Target
+
+@enduml
