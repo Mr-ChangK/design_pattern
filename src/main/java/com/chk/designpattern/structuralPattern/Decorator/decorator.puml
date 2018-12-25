@@ -1,0 +1,15 @@
+@startuml
+
+interface Human
+class AbstractHumanDecorator
+class BlackHuman
+class HumanDecorator
+
+
+
+AbstractHumanDecorator ..|> Human
+BlackHuman ..|> Human
+AbstractHumanDecorator ..o Human
+HumanDecorator --|> AbstractHumanDecorator
+
+@enduml
